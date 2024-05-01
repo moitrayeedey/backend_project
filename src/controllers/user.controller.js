@@ -9,7 +9,7 @@ import { ApiResponse } from "../utils/ApiResponse.js";
 const registerUser = asyncHandler(async (req, res) => {
     // get user details from frontend
     const {username, email, fullname, password} = req.body;
-    console.log(`username: ${username}, email: ${email}, fullname: ${fullname}, password: ${password}`);
+    // console.log(`username: ${username}, email: ${email}, fullname: ${fullname}, password: ${password}`);
 
     // get the details validated
     if(
